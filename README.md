@@ -1,19 +1,20 @@
 # machineLearningTeamProject
 
-This project is intended to help house developers/flippers identify house features that are significant in predicting house prices in Ames, Iowa.
-The data has 2580 observations and 81 columns including the sale price as the response variables.
+This project is intended to help house developers/flippers identify features significant when predicting house prices in Ames, Iowa.
+The data has 2580 observations (homes) and 81 columns (features) including sale price as the response variable.
 
-We used different strategies to impute missing values.
+We used a variety of strategies to impute missing values.
 
-When conducting data analysis we created a new column price per square foot  derived from sale price and gross living area. 
-This is the cheaper way of gauging how price per square foot react to a house feature or a combination of two.
+When conducting data analysis we created a new column, price per square foot, derived from dividing the sale price and the gross living area. 
+Price per square foot is more effective than sale price for gauging response to a house feature or combination of features.
 
 We used the following machine learning models to predict sale price:
-a. stepwise regression using Bayesian Information Criterion
-b. Lasso with GridSearchCV
-c. Ridge with GridSearchCV
-d. Random Forest with GridSearchCV
+1. Stepwise Regression using Bayesian Information Criterion
+2. Lasso with GridSearchCV
+3. Ridge with GridSearchCV
+4. Random Forest with GridSearchCV
 
-Finally, recommendations wer made after testing the performance of our models.
+Finally, recommendations were made after testing model performance.
 
 Randy, Jay, Greg, Minjae
+
